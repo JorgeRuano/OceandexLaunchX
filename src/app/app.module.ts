@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HomeModule } from './Pages/home/home.module';
-import { HttpClient } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HttpClient } from '@angular/common/http';
     BrowserModule,
     HomeModule,
     AppRoutingModule,
-    HttpClient
+    HttpClientModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
