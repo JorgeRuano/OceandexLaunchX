@@ -7,7 +7,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HomeModule } from './Pages/home/home.module';
 import { HttpClientModule } from '@angular/common/http';
-
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     HomeModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    GoogleMapsModule
    
   ],
   providers: [],
