@@ -1,4 +1,3 @@
-
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -45,4 +44,48 @@ section {
 
 .escpaio {
     margin-top: 50px;
+}
+
+.ajolote {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {
+    .ajolote {
+        width: 350px;
+        height: 350px;
+        margin-left: 150px;
+    }
+    .desplazamiento {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .ajolote {
+        width: 300px;
+        height: 300px;
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ajolote {
+        width: 220px;
+        height: 220px;
+        margin-left: 130px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ajolote {
+        width: 190px;
+        height: 190px;
+        margin-left: 70px;
+        margin-top: 130px;
+    }
 }
