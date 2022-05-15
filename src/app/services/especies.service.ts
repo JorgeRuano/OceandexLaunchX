@@ -7,11 +7,13 @@ import { Especie } from '../especie';
   providedIn: 'root'
 })
 export class EspeciesService {
-especies: Especie[] = [];
-  constructor(private http: HttpClient) { }
+
+  constructor(private http: HttpClient) { 
+    console.log("Servicio funcionando")
+  }
 
   getEspecies(): Observable<Especie[]>{
-    return this.http.get<Especie[]>("http://localhost:4200/especies");
+    return this.http.get<Especie[]>("http://localhost:3000/especies");
   }
   
 }

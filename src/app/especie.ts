@@ -1,6 +1,6 @@
 export interface Especie {
     
-    id: number;
+    
     Nombre: string;
     Nombre_Cientifico: string;
     Tipo: string;
