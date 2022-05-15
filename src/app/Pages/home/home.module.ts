@@ -6,6 +6,7 @@ import { HomepagesComponent } from './homepages.component';
 import { InicioComponent } from './Components/inicio/inicio.component';
 import { ConocenosComponent } from './Components/conocenos/conocenos.component';
 import { InformateComponent } from './Components/informate/informate.component';
+import { ReporteComponent } from './Components/reporte/reporte.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { InformateComponent } from './Components/informate/informate.component';
     HomepagesComponent,
     InicioComponent,
     ConocenosComponent,
-    InformateComponent
+    InformateComponent,
+    ReporteComponent
   ],
   imports: [
     CommonModule,
