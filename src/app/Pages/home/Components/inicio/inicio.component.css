@@ -1,3 +1,4 @@
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -40,4 +41,8 @@ section {
 
 .desplazamiento {
     margin-top: 30%;
+}
+
+.escpaio {
+    margin-top: 50px;
 }
