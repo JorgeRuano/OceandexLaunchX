@@ -1,0 +1,16 @@
+.molde {
+    height: 615px;
+}
+
+.pantalla {
+    height: 150px;
+    background: #fff;
+    margin-top: 15px;
+}
+
+.ajolote {
+    width: 175px;
+    height: 150px;
+    margin-left: 180px;
+    /* margin-top: 10px; */
+}
