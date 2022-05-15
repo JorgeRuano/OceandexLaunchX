@@ -7,6 +7,7 @@ import { InicioComponent } from './Components/inicio/inicio.component';
 import { ConocenosComponent } from './Components/conocenos/conocenos.component';
 import { InformateComponent } from './Components/informate/informate.component';
 import { ReporteComponent } from './Components/reporte/reporte.component';
+import { InterfazComponent } from './Components/interfaz/interfaz.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ReporteComponent } from './Components/reporte/reporte.component';
     InicioComponent,
     ConocenosComponent,
     InformateComponent,
-    ReporteComponent
+    ReporteComponent,
+    InterfazComponent
   ],
   imports: [
     CommonModule,
