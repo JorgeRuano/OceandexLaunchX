@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Especie } from 'src/app/especie';
-import { EspeciesService } from 'src/app/services/especies.service';
+import { EspeciesService  } from 'src/app/services/especies.service';
 
 @Component({
   selector: 'app-informate',
@@ -10,15 +10,19 @@ import { EspeciesService } from 'src/app/services/especies.service';
 export class InformateComponent implements OnInit {
 
   constructor(private _especies:EspeciesService) { }
-  especies: any[] = [];
+especies:Especie [] = [];
+
   ngOnInit(): void {
-
-  
-  console.log(this._especies.getEspecies())
-  }
-
-  getEsp(): void {
-    this._especies.getEspecies().subscribe(especies => (this.especies = especies));
-  }
+    
+    this._especies.getEspecies().subscribe(res => {
+      this.especies = res;
+      console.log(res)
+      console.log(this.especies)
+    });
 
 }
+  }
+
+
+
+

@@ -1,10 +1,10 @@
 export interface Especie {
     
-    
-    Nombre: string;
-    Nombre_Cientifico: string;
-    Tipo: string;
-    EnExistencia: number;
-    Informacion: string;
-    Ubicacion: string;
+    id:Number;
+    name: string;
+    scientificName: string;
+    type: string;
+    amountAlive: number;
+    info: string;
+    location: string;
 }
