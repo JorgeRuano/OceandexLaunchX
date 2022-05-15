@@ -6,17 +6,18 @@
         <div class="col-6">
             <div class="row p-5 overflow-auto caja">
                 <div class="col-12">
-                    <div class="d-grid gap-2" *ngFor="let especie for especies">
+                    <div class="d-grid gap-2" *ngFor="let esp of especies">
                         <button class="btn rounded-pill bg-danger btn-lg">
                             <div class="row align-items-center">
-                                <div class="col-4"> <img src="./../../../../../assets/img/axoLogo.png" style="width: 125px; height: 105px;" alt=""></div>
-                                <div class="col-4"><p>{{especie.Nombre}}</p></div>
-                                <div class="col-4"><p>{{especie.EnExistencia}}</p></div>
+                                <!-- <div class="col-4"> <img src="./../../../../../assets/img/axoLogo.png" style="width: 125px; height: 105px;" alt=""></div> -->
+                                <div class="col-4"><p>Id: {{esp.id}}</p></div>
+                                <div class="col-4"><p>Nombre: {{esp.name}}</p></div>
                             </div>
                         </button>
+                        <br>
                     </div>
 
-                    <br>
+
                 </div>
 
             </div>
