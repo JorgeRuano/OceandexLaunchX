@@ -7,7 +7,7 @@ import { InicioComponent } from './Components/inicio/inicio.component';
 import { ConocenosComponent } from './Components/conocenos/conocenos.component';
 import { InformateComponent } from './Components/informate/informate.component';
 import { ReporteComponent } from './Components/reporte/reporte.component';
-
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,8 @@ import { ReporteComponent } from './Components/reporte/reporte.component';
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    GoogleMapsModule
   ]
 })
 export class HomeModule { }
